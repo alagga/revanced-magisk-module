@@ -9,6 +9,7 @@ build-mindetach-module = true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
+arch = "arm64-v8a"
 build-mode = "module"
 version = "auto"
 included-patches = "materialyou"
@@ -18,16 +19,19 @@ excluded-patches = "theme"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
+arch = "arm64-v8a"
 build-mode = "module"
 version = "auto"
 excluded-patches = "amoled"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+arch = "arm64-v8a"
 build-mode = "module"
 version = "auto"
 
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/"
+arch = "arm64-v8a"
 build-mode = "module"
 version = "auto"
