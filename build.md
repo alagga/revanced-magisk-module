@@ -1,4 +1,6 @@
+YouTube: 18.25.39  
 Music: 6.08.50  
+Reddit: 2023.26.0  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
