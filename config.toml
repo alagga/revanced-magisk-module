@@ -32,3 +32,8 @@ version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/"
 build-mode = "module"
 version = "auto"
+
+[Messenger]
+apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
+build-mode = "module"
+version = "auto"
