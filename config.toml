@@ -30,10 +30,12 @@ version = "auto"
 
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/"
+arch = "arm64-v8a"
 build-mode = "module"
 version = "auto"
 
 [Messenger]
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
+arch = "arm64-v8a"
 build-mode = "module"
 version = "auto"
