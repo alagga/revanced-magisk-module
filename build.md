@@ -1,6 +1,7 @@
-Music: 6.10.51  
 YouTube: 18.25.40  
+Music: 6.10.51  
 Reddit: 2023.27.0  
+Messenger: 417.0.0.12.64  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
