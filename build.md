@@ -1,5 +1,7 @@
 YouTube: 18.29.38  
+Music: 6.13.52  
 Reddit: 2023.30.0  
+Messenger: 419.0.0.10.49  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
@@ -29,7 +31,7 @@ Patches: ReVanced/revanced-patches-2.186.0.jar
 
 
 ---
-CLI: j-hc/revanced-cli-2.23.0-all.jar  
+CLI: inotia00/revanced-cli-2.22.2-all.jar  
 Integrations: inotia00/revanced-integrations-0.114.10.apk  
 Patches: inotia00/revanced-patches-2.186.10.jar  
 
