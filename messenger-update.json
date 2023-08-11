@@ -1,6 +1,6 @@
 {
-  "version": "v420.0.0.15.50",
-  "versionCode": 10,
-  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/10/messenger-revanced-magisk-v420.0.0.15.50-arm64-v8a.zip",
+  "version": "v421.0.0.12.61",
+  "versionCode": 11,
+  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/11/messenger-revanced-magisk-v421.0.0.12.61-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/alagga/revanced-magisk-module/update/build.md"
 }
