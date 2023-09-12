@@ -1,8 +1,9 @@
 YouTube: 18.32.39  
-Music: 6.18.52  
+Music: 6.19.51  
 Music-Extended: 6.17.52  
 YouTube-Extended: 18.31.40  
 Reddit: 2023.36.0  
+Messenger: 425.0.0.29.109  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
