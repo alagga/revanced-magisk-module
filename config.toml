@@ -26,12 +26,13 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 
 [YouTube-Extended]
+app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 build-mode = "module"
 included-patches = "materialyou"
-excluded-patches = "theme microg-support custom-branding-youtube-name"
+excluded-patches = "theme microg-support"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Reddit]
