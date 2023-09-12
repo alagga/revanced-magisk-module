@@ -1,8 +1,8 @@
 YouTube: 18.32.39  
 Music: 6.18.52  
-Music-Extended (arm64-v8a): 6.17.52  
-Music-Extended (arm-v7a): 6.17.52  
+Music-Extended: 6.17.52  
 YouTube-Extended: 18.31.40  
+Reddit: 2023.36.0  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
@@ -92,7 +92,7 @@ Etc
 - [YT Music](https://crowdin.com/project/revanced-music-extended)
 
 ---
-CLI: j-hc/revanced-cli-3.1.0-all.jar  
+CLI: j-hc/revanced-cli-3.2.0-all.jar  
 Integrations: ReVanced/revanced-integrations-0.117.1.apk  
 Patches: ReVanced/revanced-patches-2.190.0.jar  
 
