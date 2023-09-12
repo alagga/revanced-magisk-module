@@ -31,7 +31,7 @@ integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 build-mode = "module"
 included-patches = "materialyou"
-excluded-patches = "theme microg-support"
+excluded-patches = "theme microg-support custom-branding-youtube-name"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [Reddit]
