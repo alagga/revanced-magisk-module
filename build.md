@@ -1,96 +1,79 @@
 YouTube: 18.32.39  
-Music: 6.19.51  
-Music-Extended: 6.17.52  
+Music: 6.20.51  
+Music-Extended: 6.19.51  
 YouTube-Extended: 18.31.40  
-Reddit: 2023.36.0  
+Reddit: 2023.37.0  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
 ---
 Changelog:  
 CLI: inotia00/revanced-cli-3.1.2-all.jar  
-Integrations: inotia00/revanced-integrations-0.117.1.apk  
-Patches: inotia00/revanced-patches-2.190.1.jar  
+Integrations: inotia00/revanced-integrations-0.117.8.apk  
+Patches: inotia00/revanced-patches-2.190.8.jar  
 
 YouTube
 ==
-- feat(youtube): add support version `v18.19.36` & `v18.31.40`
-- feat(youtube/litho-filter): update filter
-- feat(youtube/shared-resource-id) If the target resource ID is not found, empty index is returned instead of generating patch exception
-- fix(youtube/custom-playback-speed): does not work on tablet devices
-- fix(youtube/custom-playback-speed): when user opens the sharing panel, the custom playback speed panel opens
-- fix(youtube/default-video-quality): rollback commit
-- fix(youtube/hide-layout-components): custom filters are separated by commas instead of line-by-line
-- fix(youtube/hide-layout-components): expandable chip under videos not hidden in related videos
+- feat(youtube): remove `optimize-resource` patch https://github.com/inotia00/ReVanced_Extended/issues/1336
+- feat(youtube/append-time-stamps-information): change patch name `enable-time-stamps-speed` → `append-time-stamps-information`
+- feat(youtube/append-time-stamps-information): users can now choose between playback speed and video quality, which users can also toggle by long-pressing on the timestamp
+- feat(youtube/custom-playback-speed): change to abstract patch
+- feat(youtube/integration): minor refactoring
+- fix(youtube/default-playback-speed): toast message is showing that the playback speed has been saved even though the `default-playback-speed` patch is not included https://github.com/inotia00/ReVanced_Extended/issues/1385
+- fix(youtube/disable-shorts-on-startup): not working on YouTube v18.31.40 https://github.com/inotia00/ReVanced_Extended/issues/1375
+- fix(youtube/hide-feed-flyout-panel): doesn't work on tablet https://github.com/inotia00/ReVanced_Extended/issues/1381
+- fix(youtube/hide-handle): patch information contains incorrect patch name
+- fix(youtube/hide-quick-action): unintentional buttons are hidden
+- fix(youtube/hide-shorts-components): no longer check navbar index when hiding the shorts header
+- fix(youtube/hide-suggestions-shelf): suggestions shelf is not hidden or playlist shelf is hidden under certain circumstances https://github.com/inotia00/ReVanced_Extended/issues/1327
 - fix(youtube/litho-filter): don't remove the buffer until the thread stops
-- fix(youtube/old-quality-layout): does not work on tablet devices
-- fix(youtube/overlay-button): overlay button not hidden when scrubbing seekbar
-- fix(youtube/overlay-button): trim empty space from package name
-- fix(youtube/settings): remove disable some settings code for tablet devices
+- fix(youtube/navber-index-hook): no longer using litho filter
+- fix(youtube/settings): alert dialog when first installed does not match with the app's theme https://github.com/inotia00/ReVanced_Extended/issues/1379
+- fix(youtube/sponsorblock): default value of `Show video length without segments` setting was changed after fetch
+- fix(youtube/spoof-player-parameter): seekbar thumbnail not showing in shorts video
+- fix(youtube/spoof-player-parameter): watching previews in your feed is added to your watch history https://github.com/inotia00/ReVanced_Extended/issues/1313
+- refactor(youtube/default-video-quality): reimplemented with new method
 - feat(youtube/translations): update translation
-`Chinese Traditional`, `Indonesian`, `Russian`, `Ukrainian`, `Vietnamese`
+`Arabic`, `Chinese Traditional`, `Japanese`, `Korean`, `Vietnamese`
 
 
 YouTube Music
 ==
-- feat(music): add compatibility version constraints (ryd does not support older versions)
-- feat(music): add `enable-old-style-library-shelf` patch
-- feat(music): add `enable-playback-speed` patch
-- feat(music): add `hide-button-container-labels` patch
-- feat(music): add `hide-emoji-picker` patch
-- feat(music): add `hide-flyout-panel` patch
-- feat(music): add `hide-radio-button` patch
-- feat(music) add `hide-sample-button` patch
-- feat(music) add `hide-tooltip-content` patch
-- feat(music) add `hook-download-button` patch
-- feat(music): add `remember-playback-speed` patch
-- feat(music): add `return-youtube-dislike` patch
-- feat(music): delete `share-button-hook` patch
-- feat(music): remove `decoding-patch` that are no longer used
-- feat(music/amoled): patch now applies the amoled theme to the comment input box as well
-- feat(music/enable-custom-filter): separate filters by line instead of commas
-- feat(music/settings): apply material style to alert dialog
-- feat(music/settings): change some default value
-- feat(music/settings): remove divider from settings
-- feat(music/settings): trim empty space from edit text dialog
-- feat(music/settings): when installing for the first time, a reboot dialog is shown
-- feat(music/shared-resource-id): If the target resource ID is not found, empty index is returned instead of generating patch exception
-- feat(music/hide-get-premium): patch now also hides the premium membership label in settings
-- fix(music/exclusive audio playback): not compatible with latest version
-- fix(music/hide-upgrade-button): not compatible with latest version
-- fix(music/remember-video-quality): not compatible with latest version
-- fix(music/settings): blank screen appears when text input dialog is shown
-- refactor(music/settings): change settings structure
+- feat(music): add `custom-playback-speed` patch https://github.com/inotia00/ReVanced_Extended/issues/1367
+- feat(music): add `hide-account-menu` patch https://github.com/inotia00/ReVanced_Extended/issues/1361
+- feat(music): add `hide-handle` patch
+- feat(music): add `hide-terms-container` patch
+- feat(music): add `import/export-settings` patch
+- feat(music): add `start-page` patch
+- feat(music): integrate `hide-navigation-label`, `hide-sample-buttons`, `hide-upgrade-button` into `hide-navigation-bar-component`
+- feat(music): remove `optimize-resource` patch
+- feat(music/exclusive-audio-playback): now patch enables the `Don't play podcast videos` setting
+- feat(music/hide-cast-button): patch now hides the cast banner inside the player https://github.com/inotia00/ReVanced_Extended/issues/252
+- feat(music/hide-new-playlist-button): change setting description
+- feat(music/replace-dismiss-queue): add `Continue watching` settings
+- feat(music/settings): change category name `Bottom Player` → `Action Bar`
+- feat(music/settings): create `Video` category
+- feat(music/video-information): integrate `video-id` patch
+- fix(music/hide-cast-button): change patch description
+- fix(music/hide-sample-button): unintended buttons are hidden
+- fix(music/hide-upgrade-button): library tab stuck when opening device files https://github.com/inotia00/ReVanced_Extended/issues/906
+- fix(music/remember-video-quality): quality auto value was saved
+- fix(music/replace-dismiss-queue): audio does not stop when intent chooser is displayed
+- fix(music/settings): fix invalid class name
+- fix(music/spoof-app-version): remove unintentional dependencies
+- refactor(music/remember-video-quality): reimplemented with new method
 - feat(music/translations): update translation
-`Bengali`, `Brazilian`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Korean`, `Polish`, `Russian`, `Spanish`, `Turkish`, `Vietnamese`
-
-
-Reddit
-==
-- feat(reddit): remove `decoding-patch` that are no longer used
-- feat(reddit/shared-resource-id) If the target resource ID is not found, empty index is returned instead of generating patch exception
+`Bengali`, `Brazilian`, `Dutch`, `Japanese`, `Korean`, `Polish`, `Russian`, `Turkish`, `Vietnamese`
 
 
 Etc
 ==
-- build: bump patcher to 14.2.2
-- build: update gradle and dependency
-- chore: `ReadmeGenerator` now generates the minimum and maximum supported versions
-- ci: matched with official source
-
-- YT Music now also has version restrictions. check [README.md](https://github.com/inotia00/revanced-patches#-comgoogleandroidappsyoutubemusic)
-- in case of RVX Music, clean installation is recommended
-- in case of YouTube, the patch is not broken even in the latest beta: `YouTube v18.35.35 beta`
-- as some patches may not be applied properly in the latest version due to a/b tests, so I marked the supported version as `YouTube v18.31.40`
+- build: update dependency
 
 
-
-※ Compatible ReVanced Manager: [RVX Manager v1.9.5 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.9.5)
+※ Compatible ReVanced Manager: [RVX Manager v1.9.7 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.9.7)
 [Crowdin translation]
-- [YouTube/European Countries](https://crowdin.com/project/revancedextendedeu)
-- [YouTube/Other Countries](https://crowdin.com/project/revancedextended)
 - [YT Music](https://crowdin.com/project/revanced-music-extended)
-
 ---
 CLI: j-hc/revanced-cli-3.2.0-all.jar  
 Integrations: ReVanced/revanced-integrations-0.117.1.apk  
