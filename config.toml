@@ -8,20 +8,20 @@ build-mindetach-module = true
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
-excluded-patches = "'custom-branding' 'theme' 'vanced-microg-support'"
+excluded-patches = "'Custom branding' 'Theme' 'Vanced MicroG support'"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 build-mode = "module"
-excluded-patches = "'vanced-microg-support'"
+excluded-patches = "'Vanced MicroG support'"
 
 [Music-Extended]
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
 build-mode = "module"
-excluded-patches = "'amoled' 'microg-support' 'custom-branding-music-name' 'custom-branding-icon-revancify-blue' 'custom-package-name'"
+excluded-patches = "'Amoled' 'MicroG support' 'Custom branding Music name' 'Custom branding icon Revancify blue' 'Custom package name'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 
@@ -30,8 +30,8 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
 build-mode = "module"
-included-patches = "'materialyou'"
-excluded-patches = "'theme' 'microg-support' 'custom-branding-icon-revancify-blue' 'custom-branding-youtube-name' 'custom-package-name'"
+included-patches = "'MaterialYou'"
+excluded-patches = "'Theme' 'MicroG support' 'Custom branding icon Revancify blue' 'Custom branding YouTube name' 'Custom package name'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 
