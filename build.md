@@ -1,3 +1,4 @@
+Music: 6.39.50  
 Reddit: 2024.07.0  
 YouTube: 19.04.37  
 
