@@ -1,4 +1,4 @@
-Reddit: 2024.06.0  
+Reddit: 2024.07.0  
 YouTube: 19.04.37  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
@@ -11,6 +11,3 @@ CLI: j-hc/revanced-cli-4.3.0-all.jar
 Integrations: ReVanced/revanced-integrations-1.3.2.apk  
 Patches: ReVanced/revanced-patches-4.2.0.jar  
 [Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.2.0)  
-
-Skipped:  
-Patches: inotia00/revanced-patches-2.220.1.jar    
