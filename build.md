@@ -1,5 +1,6 @@
+Music-ReX: 6.45.54  
+YouTube-ReX: 19.11.38  
 Music: 6.46.52  
-Music-ReX: 6.46.52  
 Reddit: 2024.14.0  
 YouTube: 19.09.37  
 
@@ -9,7 +10,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
 Changelog:  
-CLI: inotia00/revanced-cli-4.4.1-all.jar  
+CLI: j-hc/revanced-cli-4.6.0-all.jar  
 Integrations: anddea/revanced-integrations-0.150.0.apk  
 Patches: anddea/revanced-patches-2.223.0.jar  
 [Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.223.0)
