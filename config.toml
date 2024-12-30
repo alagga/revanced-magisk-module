@@ -70,7 +70,7 @@ version = "auto"
 [Music-Extended]
 enabled = true
 patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
+#integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 build-mode = "module"
 excluded-patches = "'Amoled' 'MicroG support' 'Custom branding name for YouTube Music' 'Custom branding icon for YouTube Music'"
@@ -83,7 +83,7 @@ riplib = true
 [YouTube-Extended]
 enabled = true
 patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
+#integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 build-mode = "module"
 included-patches = "'MaterialYou'"
