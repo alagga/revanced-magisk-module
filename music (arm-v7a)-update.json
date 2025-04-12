@@ -1,6 +1,6 @@
 {
-  "version": "v8.05.51 (patches: 5.18.0)",
-  "versionCode": 129,
-  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/129/music-revanced-magisk-v8.05.51-arm-v7a.zip",
+  "version": "v8.05.51 (patches: 5.19.0)",
+  "versionCode": 130,
+  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/130/music-revanced-magisk-v8.05.51-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/alagga/revanced-magisk-module/update/build.md"
 }
