@@ -1,6 +1,6 @@
 {
-  "version": "v20.07.39 (patches: 5.19.0)",
-  "versionCode": 130,
-  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/130/youtube-revanced-magisk-v20.07.39-all.zip",
+  "version": "v20.07.39 (patches: 5.19.1)",
+  "versionCode": 131,
+  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/131/youtube-revanced-magisk-v20.07.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/alagga/revanced-magisk-module/update/build.md"
 }
