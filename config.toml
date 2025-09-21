@@ -54,7 +54,8 @@ build-mode = "module"
 version = "auto"
 
 [Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+#apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android/"
 build-mode = "module"
 included-patches = "'Limit feed to followed profiles' 'Hide explore feed' 'Hide navigation buttons'"
 
