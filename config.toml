@@ -55,7 +55,7 @@ version = "auto"
 
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-arch = "arm64-v8a"
+arch = "universal"
 build-mode = "module"
 included-patches = "'Limit feed to followed profiles' 'Hide explore feed' 'Hide navigation buttons'"
 
