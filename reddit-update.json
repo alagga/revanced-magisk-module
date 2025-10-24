@@ -1,6 +1,6 @@
 {
-  "version": "v2024.17.0 (patches 5.43.1)",
-  "versionCode": 174,
-  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/174/reddit-revanced-magisk-v2024.17.0-all.zip",
+  "version": "v2024.17.0 (patches 5.44.0)",
+  "versionCode": 175,
+  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/175/reddit-revanced-magisk-v2024.17.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/alagga/revanced-magisk-module/update/build.md"
 }
