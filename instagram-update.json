@@ -1,6 +1,6 @@
 {
-  "version": "v403.0.0.49.74 (patches 5.44.0)",
-  "versionCode": 175,
-  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/175/instagram-revanced-magisk-v403.0.0.49.74-arm64-v8a.zip",
+  "version": "v404.0.0.48.76 (patches 5.45.0)",
+  "versionCode": 176,
+  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/176/instagram-revanced-magisk-v404.0.0.48.76-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/alagga/revanced-magisk-module/update/build.md"
 }
