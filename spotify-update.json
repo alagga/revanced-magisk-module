@@ -1,6 +1,6 @@
 {
-  "version": "v9.0.76.1115 (patches 5.40.0)",
-  "versionCode": 168,
-  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/168/spotify-revanced-magisk-v9.0.76.1115-all.zip",
+  "version": "v9.0.90.1229 (patches 3.16.0.rvp)",
+  "versionCode": 185,
+  "zipUrl": "https://github.com/alagga/revanced-magisk-module/releases/download/185/spotify-revanced-magisk-v9.0.90.1229-all.zip",
   "changelog": "https://raw.githubusercontent.com/alagga/revanced-magisk-module/update/build.md"
 }
