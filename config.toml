@@ -21,7 +21,7 @@ build-mode = "module"
 excluded-patches = "'Vanced MicroG support'"
 
 [Music-ReX]
-enabled = false
+enabled = true
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
@@ -35,7 +35,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 riplib = true
 
 [YouTube-ReX]
-enabled = false
+enabled = true
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
@@ -54,6 +54,7 @@ build-mode = "module"
 version = "auto"
 
 [Instagram]
+enabled = false
 #apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android/"
 arch = "arm64-v8a"
@@ -93,7 +94,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 riplib = true
 
 [Spotify]
-enabled = true
+enabled = false
 patches-source = "anddea/revanced-patches"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
